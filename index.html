@@ -77,6 +77,14 @@
           height: 24rem;
         }
       }
+      .bg-custom-gray-850\/95 {
+        background-color: rgba(
+          31,
+          41,
+          55,
+          0.95
+        ); /* Equivalent to gray-850 with 95% opacity */
+      }
     </style>
   </head>
   <body class="font-sans bg-gray-900 text-white">
@@ -133,7 +141,7 @@
       <!-- Mobile Menu -->
       <div
         id="mobile-menu"
-        class="hidden md:hidden bg-gray-900/90 backdrop-blur-md absolute top-16 left-0 w-full"
+        class="hidden md:hidden bg-custom-gray-850/95 backdrop-blur-md absolute top-16 left-0 w-full"
       >
         <nav class="flex flex-col items-center py-4 space-y-4">
           <a
@@ -212,15 +220,15 @@
               class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate__animated animate__fadeInUp animate__delay-3s"
             >
               <a
-                href="assets/resume/adarsh_resume.pdf"
-                download
-                class="bg-gradient-to-r from-cyan-500 to-pink-500 text-white font-semibold py-3 px-6 rounded-full neon-glow transition-all duration-300"
-                >Download Resume</a
-              >
-              <a
                 href="#contact"
                 class="border-2 border-cyan-400 hover:border-pink-500 text-cyan-400 hover:text-pink-500 font-semibold py-3 px-6 rounded-full neon-glow transition-all duration-300"
                 >Get in Touch</a
+              >
+              <a
+                href="assets/resume/adarsh_resume.pdf"
+                target="_blank"
+                class="bg-gradient-to-r from-cyan-500 to-pink-500 text-white font-semibold py-3 px-6 rounded-full neon-glow transition-all duration-300"
+                >View Resume</a
               >
             </div>
             <!-- Social Links -->
@@ -229,21 +237,25 @@
             >
               <a
                 href="https://www.facebook.com/100066822847795/"
+                target="_blank"
                 class="text-cyan-400 hover:text-pink-500 transition-colors duration-300"
                 ><i class="bi bi-facebook text-2xl"></i
               ></a>
               <a
                 href="https://www.instagram.com/k_i_n_g_sl_ay_er/"
+                target="_blank"
                 class="text-cyan-400 hover:text-pink-500 transition-colors duration-300"
                 ><i class="bi bi-instagram text-2xl"></i
               ></a>
               <a
                 href="https://github.com/adarshshan"
+                target="_blank"
                 class="text-cyan-400 hover:text-pink-500 transition-colors duration-300"
                 ><i class="fa-brands fa-github text-2xl"></i
               ></a>
               <a
                 href="https://www.linkedin.com/in/adarsh-c-762210278/"
+                target="_blank"
                 class="text-cyan-400 hover:text-pink-500 transition-colors duration-300"
                 ><i class="bi bi-linkedin text-2xl"></i
               ></a>
@@ -304,11 +316,13 @@
             <div class="flex space-x-4">
               <a
                 href="https://www.linkedin.com/in/adarsh-c-762210278/"
+                target="_blank"
                 class="text-cyan-400 hover:text-pink-500"
                 ><i class="bi bi-linkedin text-2xl"></i
               ></a>
               <a
                 href="https://github.com/adarshshan"
+                target="_blank"
                 class="text-cyan-400 hover:text-pink-500"
                 ><i class="fa-brands fa-github text-2xl"></i
               ></a>
@@ -519,13 +533,12 @@
                   Software Engineer
                 </h3>
                 <p class="text-gray-300 font-medium">
-                  HYPR4 Cloud Tech Pvt Ltd | June 2023 - Present
+                  HYPR4 Cloud Tech Pvt Ltd | 2024 - Present
                 </p>
                 <ul class="list-disc list-inside mt-4 text-gray-300 space-y-2">
                   <li>Built scalable MERN stack applications.</li>
                   <li>Designed and implemented new features.</li>
                   <li>Optimized APIs for performance.</li>
-                  <li>Integrated AWS for cloud deployments.</li>
                 </ul>
               </div>
             </div>
@@ -536,14 +549,14 @@
             >
               <div class="md:w-1/2 bg-gray-900 p-6 rounded-lg neon-glow">
                 <h3 class="text-xl font-semibold text-white">
-                  Freelance Developer
+                  Freelance Software Developer
                 </h3>
                 <p class="text-gray-300 font-medium">
-                  Self-Employed | January 2022 - Present
+                  Self-Employed | January 2023 - 2024
                 </p>
                 <ul class="list-disc list-inside mt-4 text-gray-300 space-y-2">
                   <li>Developed responsive client websites.</li>
-                  <li>Created UI with React and Tailwind CSS.</li>
+                  <li>Created UI with React.js and Next.js</li>
                   <li>Delivered full-stack solutions.</li>
                   <li>Managed project timelines.</li>
                 </ul>
@@ -609,7 +622,7 @@
               <div>
                 <input
                   type="number"
-                  name="num"
+                  name="phone"
                   id="phone"
                   class="w-full p-3 rounded-lg bg-gray-800 text-white placeholder-gray-400 focus:ring-2 focus:ring-cyan-400 neon-glow"
                   placeholder="Your Mobile Number"
@@ -652,21 +665,25 @@
             <div class="mt-6 flex space-x-4">
               <a
                 href="https://www.facebook.com/100066822847795/"
+                target="_blank"
                 class="text-cyan-400 hover:text-pink-500 transition-colors duration-300"
                 ><i class="bi bi-facebook text-2xl"></i
               ></a>
               <a
                 href="https://www.instagram.com/k_i_n_g_sl_ay_er/"
+                target="_blank"
                 class="text-cyan-400 hover:text-pink-500 transition-colors duration-300"
                 ><i class="bi bi-instagram text-2xl"></i
               ></a>
               <a
                 href="https://github.com/adarshshan"
+                target="_blank"
                 class="text-cyan-400 hover:text-pink-500 transition-colors duration-300"
                 ><i class="fa-brands fa-github text-2xl"></i
               ></a>
               <a
                 href="https://www.linkedin.com/in/adarsh-c-762210278/"
+                target="_blank"
                 class="text-cyan-400 hover:text-pink-500 transition-colors duration-300"
                 ><i class="bi bi-linkedin text-2xl"></i
               ></a>
@@ -687,6 +704,7 @@
           Crafted with <span class="text-pink-500">♥</span> by
           <a
             href="https://www.linkedin.com/in/adarsh-c-762210278/"
+            target="_blank"
             class="text-cyan-400 hover:text-pink-500"
             >Adarsh C</a
           >
@@ -715,6 +733,18 @@
 
     <!-- Vendor JS -->
     <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "YS166L3oRrV0gh6Ag",
+        });
+      })();
+    </script>
+
+    <script
       src="https://code.jquery.com/jquery-3.7.0.min.js"
       integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
       crossorigin="anonymous"
@@ -731,7 +761,7 @@
         });
       });
 
-      // Smooth Scroll
+      // Smooth Scroll and Mobile Menu Hide
       $('a[href*="#"]').on("click", function (e) {
         e.preventDefault();
         const target = $(this.hash);
@@ -740,8 +770,19 @@
             {
               scrollTop: target.offset().top,
             },
-            800
+            800,
+            function () {
+              // Hide mobile menu if the click originated from mobile menu
+              if ($(this).closest("#mobile-menu").length) {
+                $("#mobile-menu").slideUp();
+              }
+            }.bind(this)
           );
+        } else {
+          // If no valid target, still hide mobile menu if clicked from mobile menu
+          if ($(this).closest("#mobile-menu").length) {
+            $("#mobile-menu").slideUp();
+          }
         }
       });
 
@@ -796,8 +837,15 @@
 
       function validateEmail() {
         const email = $("#email").val();
-        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        $("#email-error").text(!re.test(email) ? "Enter a valid email" : "");
+        const re =
+          /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if (!email) {
+          $("#email-error").text("Email is required.");
+        } else if (!re.test(String(email).toLowerCase())) {
+          $("#email-error").text("Enter a valid email address.");
+        } else {
+          $("#email-error").text("");
+        }
       }
 
       function validateSub() {
@@ -815,33 +863,35 @@
         );
       }
 
-      // Form Submission
-      $("#submit-form").on("submit", function (e) {
-        e.preventDefault();
-        validateName();
-        validateEmail();
-        validateSub();
-        validatePhone();
-        if (
-          !$("#name-error").text() &&
-          !$("#email-error").text() &&
-          !$("#subject-error").text() &&
-          !$("#phone-error").text()
-        ) {
-          $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbwbPJC6R8BmcC78z5QPSJ9FB7muT5RcGg7tP5g2cMTWaIeLNrD95WZwEXNVhlt7anK-/exec",
-            data: $(this).serialize(),
-            method: "POST",
-            success: function (response) {
-              alert("Message sent successfully!");
-              window.location.reload();
-            },
-            error: function (err) {
-              alert("Something went wrong. Please try again.");
-            },
-          });
-        }
-      });
+      document
+        .getElementById("submit-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          validateName();
+          validateEmail();
+          validateSub();
+          validatePhone();
+
+          // run validations here if needed
+          if (
+            !$("#name-error").text() &&
+            !$("#email-error").text() &&
+            !$("#subject-error").text() &&
+            !$("#phone-error").text()
+          ) {
+            emailjs
+              .sendForm("service_k5vfqqj", "template_sjjpv39", this)
+              .then(() => {
+                alert("✅ Email sent successfully!");
+                document.getElementById("submit-form").reset();
+              })
+              .catch((error) => {
+                console.error(error);
+                alert("❌ Failed to send email.");
+              });
+          }
+        });
     </script>
   </body>
 </html>
